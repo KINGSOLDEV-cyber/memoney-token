@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: #ffffff;
+  padding: 40px;
+}
+
+a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+.disclaimer {
+  margin-top: 40px;
+  font-size: 12px;
+  opacity: 0.7;
+}
