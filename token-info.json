@@ -1,0 +1,13 @@
+{
+  "name": "MEMONEY",
+  "symbol": "MEM",
+  "network": "Solana",
+  "standard": "SPL Token",
+  "decimals": 9,
+  "total_supply": 1000000000,
+  "launch_platform": "pump.fun",
+  "community": {
+    "x": "https://x.com/i/communities/2012942969607790980/"
+  },
+  "mint": "TBA"
+}
