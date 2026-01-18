@@ -2,27 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>MEMONEY (MEM)</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEMONEY (MEM) | Solana Meme Token</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>MEMONEY (MEM) 🪙</h1>
-  <p>Just a meme token on Solana.</p>
-
-  <ul>
-    <li><b>Total Supply:</b> 1,000,000,000 MEM</li>
-    <li><b>Decimals:</b> 9</li>
-    <li><b>Launch:</b> pump.fun</li>
-    <li><b>Mint:</b> TBA</li>
-  </ul>
-
-  <h2>Links</h2>
-  <p>
-    <a href="https://x.com/i/communities/2012942969607790980/" target="_blank">X Community</a>
-  </p>
-
-  <p class="disclaimer">
-    MEMONEY has no intrinsic value and no expectation of profit.
-  </p>
+  <div class="bg"></div>
+  <header class="hero">
+    <div class="container">
+      <div class="top">
+        <div class="logo">MEMONEY</div>
+        <div class="nav">
+          <a href="#metrics">Metrics</a>
+          <a href="#chart">Chart</a>
+          <a href="#community">Community</a>
+        </div>
+        <div class="buttons">
+          <a href="#buy" class="btn">Buy</a>
+          <a href="#metrics" class="btn btn-secondary">Solscan</a>
+        </div>
+      </div>
+      <div class="hero-content">
+        <h1>MEMONEY</h1>
+        <p>Solana meme token — community-driven and ready to pump 🚀</p>
+        <div class="hero-actions">
+          <a href="#buy" class="btn btn-large">Buy on Raydium</a>
+          <a href="#community" class="btn btn-large btn-secondary">Join Community</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="metrics" class="section metrics">
+      <div class="container">
+        <h2>Token Metrics</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Total Supply</h3>
+            <p>1,000,000,000</p>
+          </div>
+          <div class="card">
+            <h3>Decimals</h3>
+            <p>9</p>
+          </div>
+          <div class="card">
+            <h3>Mint</h3>
+            <p id="mint">YOUR_MINT_ADDRESS</p>
+          </div>
+          <div class="card">
+            <h3>Network</h3>
+            <p>Solana</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="chart" class="section chart">
+      <div class="container">
+        <h2>Price Chart</h2>
+        <div id="tradingview_widget"></div>
+      </div>
+    </section>
+    <section id="roadmap" class="section roadmap">
+      <div class="container">
+        <h2>Roadmap</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Phase 1</h3>
+            <p>Token launch + website</p>
+          </div>
+          <div class="card">
+            <h3>Phase 2</h3>
+            <p>Community growth + marketing</p>
+          </div>
+          <div class="card">
+            <h3>Phase 3</h3>
+            <p>Listing + partnerships</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="community" class="section community">
+      <div class="container">
+        <h2>Community</h2>
+        <div class="grid">
+          <a class="card link" href="https://x.com/i/communities/2012942969607790980/" target="_blank">
+            <h3>X Community</h3>
+            <p>Join our X community</p>
+          </a>
+          <a class="card link" href="#" target="_blank">
+            <h3>Telegram</h3>
+            <p>Join our Telegram</p>
+          </a>
+          <a class="card link" href="#" target="_blank">
+            <h3>Discord</h3>
+            <p>Join our Discord</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="buy" class="section buy">
+      <div class="container">
+        <h2>Buy MEM</h2>
+        <p>Buy on Raydium (Solana)</p>
+        <a class="btn btn-large" href="https://raydium.io/" target="_blank">Buy on Raydium</a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
